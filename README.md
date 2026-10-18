@@ -1,14 +1,14 @@
 # RoboRacer wall-following challenge
 
-A ROS 2 Python node that autonomously follows the left wall in the AutoDRIVE IROS 2026 practice simulator.
+A ROS 2 Python node that autonomously follows the left wall in the AutoDRIVE practice simulator.
 
 ## Results
 
 - Fastest verified clean lap: **11.9742 seconds**, achieved in an earlier clean validation run with the same submitted controller settings.
 - Submission video: **[Watch three consecutive clean laps](https://youtu.be/bJJ0KVZFIds)**.
-- The submission recording shows three consecutive complete flying laps with zero collisions: **12.3093 s, 12.1873 s, 12.2903 s**. These follow a 13.8150 s standing-start lap.
+- The submission recording shows four consecutive complete laps with zero collisions: **13.8s, 12.3s, 12.2s, 12.3s**.
 - Settings: `LOOKAHEAD = 0.8`, `BASE_THROTTLE = 0.18`.
-- Lap times are simulator-reported times, not wall-clock video duration. Rendering speed can make the two differ.
+- Lap times are simulator-reported times.
 - Tuning and validation details: [TUNING.md](TUNING.md).
 
 ## Controller
